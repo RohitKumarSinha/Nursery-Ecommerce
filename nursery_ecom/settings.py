@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'u5&po3lkui89x+afzgenc@6_w)o@0jsv^ninn_m@=@)+7(tkdp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://nursery-ecommerce.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
